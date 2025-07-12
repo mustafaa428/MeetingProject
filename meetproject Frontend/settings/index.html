@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayarlar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="settings-container">
+        <h2>Ayarlar</h2>
+
+        <!-- Ad Güncelleme -->
+        <div class="settings-section">
+            <div class="input-group left">
+                <label for="name">Ad</label>
+                <input type="text" id="name" placeholder="Adınızı girin">
+                <button class="update-btn" id="updateNameBtn">Adı Güncelle</button>
+            </div>
+        </div>
+
+        <!-- Soyad Güncelleme -->
+        <div class="settings-section">
+            <div class="input-group left">
+                <label for="surname">Soyad</label>
+                <input type="text" id="surname" placeholder="Soyadınızı girin">
+                <button class="update-btn" id="updateSurnameBtn">Soyadı Güncelle</button>
+            </div>
+        </div>
+
+        <!-- E-posta Güncelleme -->
+        <div class="settings-section">
+            <div class="input-group left">
+                <label for="email">E-posta Adresi</label>
+                <input type="email" id="email" placeholder="Yeni e-posta girin">
+                <button class="update-btn" id="updateEmailBtn">E-posta Güncelle</button>
+            </div>
+        </div>
+
+        <!-- Şifre Güncelleme -->
+        <div class="settings-section">
+            <div class="input-group right">
+                <label for="password">Yeni Şifre</label>
+                <input type="password" id="password" placeholder="Yeni şifre girin">
+            </div>
+            <div class="input-group right">
+                <label for="confirmPassword">Şifreyi Tekrarla</label>
+                <input type="password" id="confirmPassword" placeholder="Şifreyi tekrar girin">
+            </div>
+            <button class="update-btn" id="updatePasswordBtn">Şifreyi Güncelle</button>
+        </div>
+
+        <!-- Mesajlar -->
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9faf8; /* Arka plan rengini değiştirmek isterseniz burayı değiştirin */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #141313; /* Navbar markası için yeni renk */
+}
+
+/* Navbar Arka Plan Rengini Özelleştirme */
+.bg-custom {
+    background-color: #f9faf8 !important; /* Burada istediğiniz HEX kodunu kullanabilirsiniz */
+}
+
+/* Navbar metin rengini beyaz yapmak */
+.navbar-dark .navbar-nav .nav-link {
+    color: #141313; /* Metin rengini beyaz yapar */
+}
+
+/* Navbar üzerine tıklanabilir öğeler için renk değiştirme */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #dddddd00; /* Hover rengi */
+}
+
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2C3E50; /* Başlık rengini değiştirmek isterseniz burayı değiştirin */
+}
+
+.list-group-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: #FFFFFF; /* Liste öğelerinin arka plan rengini değiştirebilirsiniz */
+    border-left: 5px solid #9b71b3; /* Liste öğeleri için sol kenar rengini değiştirdim */
+}
+
+.list-group-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #bed396; /* Hover durumunda arka plan rengi */
+}
+
+.modal-header {
+    background-color: #474646; /* Modal başlık arka planı rengini değiştirdim */
+    color: #ffffff; /* Modal başlık rengi */
+}
+
+/* Style for added emails in list */
+#email-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#email-list .email-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#email-list .email-item button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+#email-list .email-item button:hover {
+    text-decoration: underline;
+}
+
+
+.modal-title {
+    font-weight: bold;
+    color: #3cdf26; /* Modal başlık yazı rengini değiştirdim */
+}

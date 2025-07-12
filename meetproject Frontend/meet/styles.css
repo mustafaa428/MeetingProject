@@ -1,0 +1,268 @@
+/* Genel Stiller */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.meeting-container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Video Bölümü */
+.video-section {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Katılımcı videoları arasındaki boşluk */
+    position: relative;
+}
+
+.remote-video {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    background: black;
+    object-fit: cover;
+}
+
+.video-section video {
+    max-width: 45%; /* Katılımcı videoları için genişlik */
+    max-height: 90%; /* Videoların maksimum yüksekliği */
+    border-radius: 10px;
+    display: none; /* Başlangıçta video gizlenir */
+    transform: scaleX(-1); /* Kamera için ayna efekti */
+}
+
+/* Alt Menü */
+.bottom-bar {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Butonlar arasındaki boşluk */
+    border-top: 2px solid #444;
+}
+
+/* Kontrol Butonları */
+.main-controls {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px; /* Butonlar arasındaki boşluk */
+    justify-content: center;
+    align-items: center;
+}
+
+.control-button {
+    width: 50px;
+    height: 50px;
+    background-color: #444;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); /* Gölge efekti */
+}
+
+.control-button:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Hover sırasında büyütme */
+}
+
+.control-button svg {
+    fill: white;
+    width: 24px;
+    height: 24px;
+}
+
+/* Tepki Menüsü */
+.reaction-menu {
+    display: none;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 10px;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Üstte görünmesi için */
+}
+
+.reaction-menu button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.reaction-menu button:hover {
+    transform: scale(1.2);
+}
+
+/* Tepki Görüntüleme */
+#reaction-display {
+    position: absolute;
+    top: 50%; /* Ekranın ortasında */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px; /* Daha büyük bir emoji */
+    font-weight: bold;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Diğer öğelerin üstünde */
+    animation: fadeOut 3s ease-in-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Yan Paneller */
+.side-panel {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    padding: 20px;
+    box-shadow: -4px 0 6px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    color: white;
+    z-index: 1000;
+    border-left: 2px solid #444;
+}
+
+.side-panel.open {
+    right: 0;
+}
+
+.side-panel h3 {
+    margin-top: 0;
+    font-size: 20px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Chat Paneli */
+#chat-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#chat-messages li {
+    padding: 5px 10px;
+    background-color: #444;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#chat-messages li.no-messages {
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+}
+
+#chat-input {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    width: calc(100% - 20px);
+}
+
+#chat-input::placeholder {
+    color: #aaa;
+}
+
+#chat-input:focus {
+    outline: none;
+    border-color: #888;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Çıkış Butonu */
+.leave-button {
+    background-color: #f54242;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.leave-button:hover {
+    background-color: #e03131;
+    transform: scale(1.1);
+}
+
+.leave-button svg {
+    fill: white;
+}
+
+/* Kamera ve Mikrofon Butonları */
+#camera-icon, #mic-icon {
+    transition: fill 0.3s ease;
+}
+
+#camera-icon path, #mic-icon path {
+    fill: white;
+}
+
+/* Kaydı Başlatma/Durdurma İkonu */
+#record-icon circle:first-child {
+    transition: fill 0.3s ease;
+}
+
+#record-icon circle:last-child {
+    transition: fill 0.3s ease;
+}

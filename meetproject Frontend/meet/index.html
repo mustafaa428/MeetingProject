@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="meeting-container">
+        <!-- Video Section -->
+        <div class="video-section">
+            <video id="video-stream" autoplay playsinline></video>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="bottom-bar">
+            <div class="main-controls">
+                <!-- Participants -->
+                <div class="control-button" title="Participants" onclick="toggleParticipants()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 2a6 6 0 1 0 0 12 6 6 0 1 0 0-12zm-9 20c0-3.33 2.69-6 6-6h6c3.31 0 6 2.67 6 6H3z"/>
+                    </svg>
+                </div>
+
+                <!-- Chat -->
+                <div class="control-button" title="Chat" onclick="toggleChat()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 3C6.48 3 2 6.58 2 11c0 1.78.79 3.42 2.12 4.74L3 21l4.42-1.12C8.59 20.68 10.25 21 12 21c5.52 0 10-3.58 10-8s-4.48-8-10-8z"/>
+                    </svg>
+                </div>
+
+                <!-- Raise Hand -->
+                <div class="control-button" title="Raise Hand" onclick="raiseHand()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 12c-2.21 0-4-1.79-4-4V4h2v4c0 1.1.9 2 2 2s2-.9 2-2V4h2v4c0 2.21-1.79 4-4 4zm-5.45.11c-.58.55-1.04 1.19-1.38 1.89L3 14v6h18v-6l-1.96-.01c-.34-.7-.8-1.34-1.38-1.89L17 14H7l-.45-.89z"/>
+                    </svg>
+                </div>
+
+                <!-- React -->
+                <div class="control-button" title="React" onclick="toggleReactionMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="#ffcc00" />
+                        <path d="M9 9h6v2H9zM9 13h6v2H9z" fill="#fff" />
+                    </svg>
+                    <div class="reaction-menu">
+                        <button class="reaction" onclick="sendReaction('👍')">👍</button>
+                        <button class="reaction" onclick="sendReaction('❤️')">❤️</button>
+                        <button class="reaction" onclick="sendReaction('😂')">😂</button>
+                        <button class="reaction" onclick="sendReaction('👏')">👏</button>
+                        <button class="reaction" onclick="sendReaction('🎉')">🎉</button>
+                    </div>
+                </div>
+
+                <!-- Screen Share -->
+                <div class="control-button" title="Share Screen" onclick="startScreenShare()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h6v2h6v-2h6c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 12H5V7h14v8z"/>
+                    </svg>
+                </div>
+
+                <!-- Camera Toggle -->
+                <div class="control-button" title="Toggle Camera" onclick="toggleCamera()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="camera-icon">
+                        <path d="M17 10.5l4-3.5v11l-4-3.5v3.5H3V7h14v3.5z"/>
+                    </svg>
+                </div>
+
+                <!-- Mic Toggle -->
+                <div class="control-button" title="Toggle Mic" onclick="toggleMic()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="mic-icon">
+                        <path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 14 0h-2zm-5 7v4h2v-4h-2z"/>
+                    </svg>
+                </div>
+
+                <!-- Leave Meeting -->
+                <div class="control-button leave-button" title="Leave Meeting" onclick="leaveMeeting()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M10 17l-5-5 5-5v3h8v4h-8v3z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Participants Panel -->
+        <div id="participants-panel" class="side-panel">
+            <h3>Participants</h3>
+            <ul id="participants-list">
+            </ul>
+        </div>
+
+        <!-- Chat Panel -->
+        <div id="chat-panel" class="side-panel">
+            <h3>Chat</h3>
+            <ul id="chat-messages">
+                
+            </ul>
+            <input type="text" id="chat-input" placeholder="Type a message">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+        <!-- Reaction Display -->
+        <div id="reaction-display"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script src="scripts.js"></script>
+
+
+</body>
+</html>

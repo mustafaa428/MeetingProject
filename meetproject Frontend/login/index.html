@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+
+            <!-- Login Form -->
+            <form id="login-form" class="form active">
+                <h2>Giriş Yap</h2>
+                <input type="email" name="email" id="login-email" placeholder="Email" required>
+                <input type="password" name="password" id="login-password" placeholder="Şifre" required>
+                <button type="submit">Giriş Yap</button>
+                <p class="toggle-text">
+                    Hesabınız yok mu? 
+                    <span onclick="showRegister()">Kayıt Olun</span>
+                </p>
+                <div id="login-error" style="display: none; color: red;"></div> <!-- Hata mesajı -->
+            </form>
+
+            <!-- Register Form -->
+            <form id="register-form" class="form hidden">
+                <h2>Kayıt Ol</h2>
+                <input type="text" name="name" id="register-name" placeholder="Name" required>
+                <input type="text" name="surname" id="register-surname" placeholder="SurName" required>
+                <input type="email" name="email" id="register-email" placeholder="Email" required>
+                <input type="password" name="password" id="register-password" placeholder="Password" required>
+                <button type="submit">Kayıt Ol</button>
+                <p class="toggle-text">
+                    Hesabınız var mı? 
+                    <span onclick="showLogin()">Giriş Yap</span>
+                </p>
+                <div id="register-error" style="display: none; color: red;"></div> <!-- Hata mesajı -->
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

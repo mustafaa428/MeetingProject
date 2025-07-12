@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6D8EC5-7571-4192-8528-75AD959D65D9}|DataBusiness\\DataBusiness.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\databusiness\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6D8EC5-7571-4192-8528-75AD959D65D9}|DataBusiness\\DataBusiness.csproj|solutionrelative:databusiness\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|solutionrelative:services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|solutionrelative:services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\services\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|solutionrelative:services\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\services\\services\\meetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|solutionrelative:services\\services\\meetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\services\\interface\\irsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|solutionrelative:services\\interface\\irsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E49536-2BD9-4EF8-8742-8A0E2330E5C9}|MeetingAPI\\MeetingAPI.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\meetingapi\\controllers\\meetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E49536-2BD9-4EF8-8742-8A0E2330E5C9}|MeetingAPI\\MeetingAPI.csproj|solutionrelative:meetingapi\\controllers\\meetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E49536-2BD9-4EF8-8742-8A0E2330E5C9}|MeetingAPI\\MeetingAPI.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\meetingapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E49536-2BD9-4EF8-8742-8A0E2330E5C9}|MeetingAPI\\MeetingAPI.csproj|solutionrelative:meetingapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\services\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|solutionrelative:services\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\services\\interface\\imeetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE136A-B4D1-4EBA-8AF0-11171C01387B}|Services\\Services.csproj|solutionrelative:services\\interface\\imeetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6D8EC5-7571-4192-8528-75AD959D65D9}|DataBusiness\\DataBusiness.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\databusiness\\projectconnectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6D8EC5-7571-4192-8528-75AD959D65D9}|DataBusiness\\DataBusiness.csproj|solutionrelative:databusiness\\projectconnectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6D8EC5-7571-4192-8528-75AD959D65D9}|DataBusiness\\DataBusiness.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\databusiness\\projectconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6D8EC5-7571-4192-8528-75AD959D65D9}|DataBusiness\\DataBusiness.csproj|solutionrelative:databusiness\\projectconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58AEF16-9C35-4247-904A-0D90379D0E9A}|Entities\\Entities.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\entities\\requests\\createmeetingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A58AEF16-9C35-4247-904A-0D90379D0E9A}|Entities\\Entities.csproj|solutionrelative:entities\\requests\\createmeetingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58AEF16-9C35-4247-904A-0D90379D0E9A}|Entities\\Entities.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\entities\\models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A58AEF16-9C35-4247-904A-0D90379D0E9A}|Entities\\Entities.csproj|solutionrelative:entities\\models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58AEF16-9C35-4247-904A-0D90379D0E9A}|Entities\\Entities.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\entities\\imodels\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A58AEF16-9C35-4247-904A-0D90379D0E9A}|Entities\\Entities.csproj|solutionrelative:entities\\imodels\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E49536-2BD9-4EF8-8742-8A0E2330E5C9}|MeetingAPI\\MeetingAPI.csproj|c:\\users\\mustafa\\desktop\\meetingproject\\meetingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E49536-2BD9-4EF8-8742-8A0E2330E5C9}|MeetingAPI\\MeetingAPI.csproj|solutionrelative:meetingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRsaService.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Interface\\IRsaService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IRsaService.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Interface\\IRsaService.cs",
+              "RelativeToolTip": "Services\\Interface\\IRsaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:10:03.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserService.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:29:18.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\Services\\TokenService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:21:51.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\MeetingAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MeetingAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\MeetingAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MeetingAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:13:13.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\DataBusiness\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "DataBusiness\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\DataBusiness\\Repository\\Repository.cs",
+              "RelativeToolTip": "DataBusiness\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:16:36.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeetingService.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Services\\MeetingService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\MeetingService.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Services\\MeetingService.cs",
+              "RelativeToolTip": "Services\\Services\\MeetingService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDwAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:34:58.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Services\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Services\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswFAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:28:27.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\Services\\UserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:17:49.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MeetController.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\MeetingAPI\\Controllers\\MeetController.cs",
+              "RelativeDocumentMoniker": "MeetingAPI\\Controllers\\MeetController.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\MeetingAPI\\Controllers\\MeetController.cs",
+              "RelativeToolTip": "MeetingAPI\\Controllers\\MeetController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:32:58.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectConnectFactory.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\DataBusiness\\ProjectConnectFactory.cs",
+              "RelativeDocumentMoniker": "DataBusiness\\ProjectConnectFactory.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\DataBusiness\\ProjectConnectFactory.cs",
+              "RelativeToolTip": "DataBusiness\\ProjectConnectFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:11:36.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectConnect.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\DataBusiness\\ProjectConnect.cs",
+              "RelativeDocumentMoniker": "DataBusiness\\ProjectConnect.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\DataBusiness\\ProjectConnect.cs",
+              "RelativeToolTip": "DataBusiness\\ProjectConnect.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:16:25.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateMeetingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Entities\\Requests\\CreateMeetingRequest.cs",
+              "RelativeDocumentMoniker": "Entities\\Requests\\CreateMeetingRequest.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Entities\\Requests\\CreateMeetingRequest.cs",
+              "RelativeToolTip": "Entities\\Requests\\CreateMeetingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:09:53.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMeetingService.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Interface\\IMeetingService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IMeetingService.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Services\\Interface\\IMeetingService.cs",
+              "RelativeToolTip": "Services\\Interface\\IMeetingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:58:59.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Meeting.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Entities\\Models\\Meeting.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Meeting.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Entities\\Models\\Meeting.cs",
+              "RelativeToolTip": "Entities\\Models\\Meeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:07:29.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Entities\\IModels\\IEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\IModels\\IEntity.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\Entities\\IModels\\IEntity.cs",
+              "RelativeToolTip": "Entities\\IModels\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:07:13.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\MeetingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MeetingAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mustafa\\Desktop\\MeetingProject\\MeetingAPI\\Program.cs",
+              "RelativeToolTip": "MeetingAPI\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T11:13:22.054Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
